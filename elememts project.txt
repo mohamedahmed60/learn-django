@@ -1,2 +1,14 @@
-لانشاء مستخدم
-python manage.py createsuperuser
+- create virtualenv                		انشاء بيئة وهمية
+- activate                        		تنشيط البيئة الوهمية 
+- install django                   		تنزيل الديجانقو
+- create new folder : src      			انشاء مجلد جديد
+- create django project : blog 			اضافة مشروع ديجانقو
+- create django app : posts      		انشاء تطبيق دجانقو 
+- add posts : settings : installed_apps   	اضافة التطبيق في ملف الاعدادت 
+- posts : models : class [title - content]  	اضافة كلاس في قاعدة البيانات
+- makemigrations 				عمل اضافة للقبول في قاعدة البيانات
+- migrate                                       
+- create superuser				لانشاء مستخدم	 python manage.py createsuperuser
+- reqister models [post  --> admin 		عرض في صفحة الادمن 
+
+
